@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>Chatbot Page</title>
+<style>
+  html {
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  df-messenger {
+    --df-messenger-button-titlebar-color: rgb(240,136,43);
+    --df-messenger-button-titlebar-font-color: black;
+    
+  }
+
+</style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=.2, user-scalable=no" />
+</head>
+
+<body
+>
+ 
+  <!-- Your Dialogflow Messenger Code here... -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Nate the Transit Mate"
+  chat-icon="https://cdn.iconscout.com/icon/premium/png-256-thumb/train-conductor-789593.png?f=webp&w=256"
+  agent-id="50288509-e066-430c-98e6-fc26aba6103a"
+  language-code="en"
+></df-messenger>
+</body>
+
+
+</html>
